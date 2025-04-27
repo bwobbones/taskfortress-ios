@@ -11,6 +11,8 @@ struct ContentView: View {
     @State private var jsonData: String = "{\n  \"key\": \"value\"\n}"
     @State private var errorMessage: String? = nil
 
+    private let fileName = "jsonData.json"
+
     var body: some View {
         VStack(alignment: .leading) {
             Text("JSON Editor")
@@ -21,6 +23,7 @@ struct ContentView: View {
                 .padding()
                 .onChange(of: jsonData) { newValue in
                     validateJSON(newValue)
+                    saveJSONToFile(newValue)
                 }
 
             if let errorMessage = errorMessage {
@@ -32,6 +35,9 @@ struct ContentView: View {
             Spacer()
         }
         .padding()
+        .onAppear {
+            loadJSONFromFile()
+        }
     }
 
     private func validateJSON(_ text: String) {
@@ -45,6 +51,29 @@ struct ContentView: View {
             }
         } catch {
             errorMessage = "Error: \(error.localizedDescription)"
+        }
+    }
+
+    private func getDocumentsDirectory() -> URL {
+        FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+    }
+
+    private func saveJSONToFile(_ json: String) {
+        let fileURL = getDocumentsDirectory().appendingPathComponent(fileName)
+        do {
+            try json.write(to: fileURL, atomically: true, encoding: .utf8)
+        } catch {
+            errorMessage = "Failed to save JSON: \(error.localizedDescription)"
+        }
+    }
+
+    private func loadJSONFromFile() {
+        let fileURL = getDocumentsDirectory().appendingPathComponent(fileName)
+        do {
+            let savedData = try String(contentsOf: fileURL, encoding: .utf8)
+            jsonData = savedData
+        } catch {
+            errorMessage = "Failed to load JSON: \(error.localizedDescription)"
         }
     }
 }
