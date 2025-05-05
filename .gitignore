@@ -1,0 +1,9 @@
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Xcode workspace settings
+*.xcworkspace
+
+# Xcode user-specific files
+*.xcuserstate

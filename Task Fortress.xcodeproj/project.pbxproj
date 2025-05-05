@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0FE7BD53112E2D7C980DA5E9 /* Pods_Task_FortressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420C3F69E5A9B0DB3D843483 /* Pods_Task_FortressTests.framework */; };
+		B5EBD0071D0C60860EE0C72C /* Pods_Task_Fortress_Task_FortressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15BD661F61AFFCE21705F95 /* Pods_Task_Fortress_Task_FortressUITests.framework */; };
+		F53E7099B1AF90EA944C9B4B /* Pods_Task_Fortress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADAFFB8BCCBEF7B48B0B0CC /* Pods_Task_Fortress.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		06E45C632DBE88E400278C99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,21 +33,36 @@
 		06E45C552DBE88E300278C99 /* Task Fortress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Fortress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E45C622DBE88E400278C99 /* Task FortressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task FortressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E45C6C2DBE88E400278C99 /* Task FortressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task FortressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DB4CA738CD2E689EE9ABAA /* Pods-Task Fortress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Fortress.release.xcconfig"; path = "Target Support Files/Pods-Task Fortress/Pods-Task Fortress.release.xcconfig"; sourceTree = "<group>"; };
+		3ADAFFB8BCCBEF7B48B0B0CC /* Pods_Task_Fortress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_Fortress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		420C3F69E5A9B0DB3D843483 /* Pods_Task_FortressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_FortressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6696273E0A6CF422D38A3951 /* Pods-Task Fortress-Task FortressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Fortress-Task FortressUITests.release.xcconfig"; path = "Target Support Files/Pods-Task Fortress-Task FortressUITests/Pods-Task Fortress-Task FortressUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81D949D4BBA1A08797955D43 /* Pods-Task FortressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task FortressTests.release.xcconfig"; path = "Target Support Files/Pods-Task FortressTests/Pods-Task FortressTests.release.xcconfig"; sourceTree = "<group>"; };
+		A011FB4CCF32B9B998B41DF6 /* Pods-Task Fortress-Task FortressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Fortress-Task FortressUITests.debug.xcconfig"; path = "Target Support Files/Pods-Task Fortress-Task FortressUITests/Pods-Task Fortress-Task FortressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B66E89846735A950FB2C61EB /* Pods-Task FortressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task FortressTests.debug.xcconfig"; path = "Target Support Files/Pods-Task FortressTests/Pods-Task FortressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D15BD661F61AFFCE21705F95 /* Pods_Task_Fortress_Task_FortressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_Fortress_Task_FortressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93FE765A3301F1F8A174820 /* Pods-Task Fortress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Fortress.debug.xcconfig"; path = "Target Support Files/Pods-Task Fortress/Pods-Task Fortress.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		06E45C572DBE88E300278C99 /* Task Fortress */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Task Fortress";
 			sourceTree = "<group>";
 		};
 		06E45C652DBE88E400278C99 /* Task FortressTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Task FortressTests";
 			sourceTree = "<group>";
 		};
 		06E45C6F2DBE88E400278C99 /* Task FortressUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Task FortressUITests";
 			sourceTree = "<group>";
 		};
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53E7099B1AF90EA944C9B4B /* Pods_Task_Fortress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE7BD53112E2D7C980DA5E9 /* Pods_Task_FortressTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EBD0071D0C60860EE0C72C /* Pods_Task_Fortress_Task_FortressUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +103,8 @@
 				06E45C652DBE88E400278C99 /* Task FortressTests */,
 				06E45C6F2DBE88E400278C99 /* Task FortressUITests */,
 				06E45C562DBE88E300278C99 /* Products */,
+				F27D5BE3C47C8B3FD7A7E650 /* Pods */,
+				4C777A5F7E6C031C1C60630F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +118,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4C777A5F7E6C031C1C60630F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ADAFFB8BCCBEF7B48B0B0CC /* Pods_Task_Fortress.framework */,
+				D15BD661F61AFFCE21705F95 /* Pods_Task_Fortress_Task_FortressUITests.framework */,
+				420C3F69E5A9B0DB3D843483 /* Pods_Task_FortressTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F27D5BE3C47C8B3FD7A7E650 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E93FE765A3301F1F8A174820 /* Pods-Task Fortress.debug.xcconfig */,
+				22DB4CA738CD2E689EE9ABAA /* Pods-Task Fortress.release.xcconfig */,
+				A011FB4CCF32B9B998B41DF6 /* Pods-Task Fortress-Task FortressUITests.debug.xcconfig */,
+				6696273E0A6CF422D38A3951 /* Pods-Task Fortress-Task FortressUITests.release.xcconfig */,
+				B66E89846735A950FB2C61EB /* Pods-Task FortressTests.debug.xcconfig */,
+				81D949D4BBA1A08797955D43 /* Pods-Task FortressTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06E45C762DBE88E400278C99 /* Build configuration list for PBXNativeTarget "Task Fortress" */;
 			buildPhases = (
+				80FCA54B3D157EB14C0B334E /* [CP] Check Pods Manifest.lock */,
 				06E45C512DBE88E300278C99 /* Sources */,
 				06E45C522DBE88E300278C99 /* Frameworks */,
 				06E45C532DBE88E300278C99 /* Resources */,
@@ -111,8 +162,6 @@
 				06E45C572DBE88E300278C99 /* Task Fortress */,
 			);
 			name = "Task Fortress";
-			packageProductDependencies = (
-			);
 			productName = "Task Fortress";
 			productReference = 06E45C552DBE88E300278C99 /* Task Fortress.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06E45C792DBE88E400278C99 /* Build configuration list for PBXNativeTarget "Task FortressTests" */;
 			buildPhases = (
+				C496FBA6ED8FAA2BAE1AB665 /* [CP] Check Pods Manifest.lock */,
 				06E45C5E2DBE88E400278C99 /* Sources */,
 				06E45C5F2DBE88E400278C99 /* Frameworks */,
 				06E45C602DBE88E400278C99 /* Resources */,
@@ -134,8 +184,6 @@
 				06E45C652DBE88E400278C99 /* Task FortressTests */,
 			);
 			name = "Task FortressTests";
-			packageProductDependencies = (
-			);
 			productName = "Task FortressTests";
 			productReference = 06E45C622DBE88E400278C99 /* Task FortressTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06E45C7C2DBE88E400278C99 /* Build configuration list for PBXNativeTarget "Task FortressUITests" */;
 			buildPhases = (
+				B6999D1C908F6CDFFDEDB5DE /* [CP] Check Pods Manifest.lock */,
 				06E45C682DBE88E400278C99 /* Sources */,
 				06E45C692DBE88E400278C99 /* Frameworks */,
 				06E45C6A2DBE88E400278C99 /* Resources */,
@@ -157,8 +206,6 @@
 				06E45C6F2DBE88E400278C99 /* Task FortressUITests */,
 			);
 			name = "Task FortressUITests";
-			packageProductDependencies = (
-			);
 			productName = "Task FortressUITests";
 			productReference = 06E45C6C2DBE88E400278C99 /* Task FortressUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +277,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80FCA54B3D157EB14C0B334E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Task Fortress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6999D1C908F6CDFFDEDB5DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Task Fortress-Task FortressUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C496FBA6ED8FAA2BAE1AB665 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Task FortressTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		06E45C512DBE88E300278C99 /* Sources */ = {
@@ -392,6 +508,7 @@
 		};
 		06E45C772DBE88E400278C99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E93FE765A3301F1F8A174820 /* Pods-Task Fortress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +537,7 @@
 		};
 		06E45C782DBE88E400278C99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DB4CA738CD2E689EE9ABAA /* Pods-Task Fortress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +566,7 @@
 		};
 		06E45C7A2DBE88E400278C99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66E89846735A950FB2C61EB /* Pods-Task FortressTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +586,7 @@
 		};
 		06E45C7B2DBE88E400278C99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81D949D4BBA1A08797955D43 /* Pods-Task FortressTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +606,7 @@
 		};
 		06E45C7D2DBE88E400278C99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A011FB4CCF32B9B998B41DF6 /* Pods-Task Fortress-Task FortressUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +624,7 @@
 		};
 		06E45C7E2DBE88E400278C99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6696273E0A6CF422D38A3951 /* Pods-Task Fortress-Task FortressUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
